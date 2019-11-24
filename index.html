@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/form.css">
+</head>
+
+<body>
+    <header>
+        <a href="homepage.html"><img id="logo" src="assets/img/logo.png" /></a>
+        <nav class="navigation-bar">
+            <ul>
+                <a href="index.html">
+                    <li>HOME</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="title">
+            <h1>Currency Converter</h1>
+        </div>
+
+        <div class="container-contact100">
+            <div class="wrap-contact100">
+
+                <div class="wrap-input100 bg1">
+                    <span class="label-input100">Amount *</span>
+                    <input class="input100" type="number" id="amount" min="1" placeholder="Enter Amount">
+                </div>
+
+                <div class="wrap-input100 bg1">
+                    <span class="label-input100">From *</span>
+                    <div>
+                        <select class="input100" id="from">
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="wrap-input100 bg1">
+                    <span class="label-input100">To *</span>
+                    <div>
+                        <select class="input100" id="to">
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn" id="convert">
+                        <span>
+                        CONVERT
+                      </span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wrap2">
+                <h2 id="amountConvert"></h2>
+                <h5 id="detail"></h5>
+                <h2 id="result"></h2>
+                <span class="textUpdate" id="update"></span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+  <footer>
+    <span class="footer">CurrencyConverter @2019 Copyright, Reserved</span>
+  </footer>
+    <script src="assets/js/exchange.js"></script>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</html>
